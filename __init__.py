@@ -1,4 +1,4 @@
-from node import MaskFromColorMultiObject
+from node_lyra import MaskFromColorMultiObject
 
 NODE_CLASS_MAPPINGS = {
     "btTimesTwo": MaskFromColorMultiObject
