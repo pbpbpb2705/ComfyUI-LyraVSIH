@@ -3,9 +3,10 @@ name = "MultiColorMasking"
 description = "Masking multiple colors in a segmentation image"
 version = "1.0.0"
 license = {file = "LICENSE"}
+dependencies = ["diffusers>=0.25.0", "accelerate>=0.25.0", "clip_interrogator>=0.6.0", "sentencepiece", "lark-parser", "onnxruntime", "spandrel", "opencv-python", "torch"]
 
 [project.urls]
-Repository = "https://github.com/comfyanonymous/ComfyUI"
+Repository = "https://github.com/pbpbpb2705/ComfyUI-LyraVSIH"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
