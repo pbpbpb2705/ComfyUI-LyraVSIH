@@ -1,5 +1,5 @@
 [project]
-name = "MultiColorMasking"
+name = "multi_color_masking"
 description = "Masking multiple colors in a segmentation image"
 version = "1.0.0"
 license = {file = "LICENSE"}
