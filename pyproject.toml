@@ -1,7 +1,7 @@
 [project]
 name = "multi_color_masking"
 description = "Masking multiple colors in a segmentation image"
-version = "1.0.0"
+version = "1.0.1"
 license = {file = "LICENSE"}
 dependencies = ["diffusers>=0.25.0", "accelerate>=0.25.0", "clip_interrogator>=0.6.0", "sentencepiece", "lark-parser", "onnxruntime", "spandrel", "opencv-python", "torch"]
 

@@ -1,7 +1,7 @@
-from node import MaskFromColorMuitiObject
+from node import MaskFromColorMultiObject
 
 NODE_CLASS_MAPPINGS = {
-    "btTimesTwo": MaskFromColorMuitiObject
+    "btTimesTwo": MaskFromColorMultiObject
 }
 
 NODE_DISPLAY_NAMES_MAPPINGS = {
