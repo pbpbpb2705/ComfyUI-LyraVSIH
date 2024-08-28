@@ -30,7 +30,9 @@ class MaskFromColorMultiObject:
         keywords = room_object.split(',')
         
         for word in keywords:
-            filtered_data = data[data['Name'].str.contains(word, case=False, na=False)]
+            # Name column contains multiple keywords separated by ';'
+            # We need to filter the data based on the individual keyword, see if it exists in the Name column
+            filtered_data = data[data['Name'].str.split(';').apply(lambda names: word.strip().lower() in [name.strip().lower() for name in names])]
 
             # If no data is found, skip to the next keyword
             if filtered_data.empty:
